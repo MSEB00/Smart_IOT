@@ -1,0 +1,32 @@
+# Arduino build output
+*.bin
+*.elf
+*.hex
+*.eep
+*.map
+*.lk
+*.d
+*.o
+*.a
+*.pio
+
+# VS Code settings
+.vscode/
+
+# User-specific files
+*.user
+*.log
+*.tmp
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Local secrets and key material
+local_secrets.h
+*.pem
+
+# Keep tracked template only
+!local_secrets.example.h
